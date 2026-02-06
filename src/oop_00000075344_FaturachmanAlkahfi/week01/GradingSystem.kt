@@ -1,9 +1,8 @@
 package oop_00000075344_FaturachmanAlkahfi.week01
 
 fun main() {
-    var name: String = "alvinJK"
-    var score: Int = 80
+    val name = "alvinJK"
+    val score = 80
 
-    // Concatenation gaya lama
-    println("Nama: " + name + ", Nilai: " + score)
+    println("Nama: $name, Nilai: $score")
 }
